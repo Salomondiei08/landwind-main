@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Sikili brand colors */
+.text-sikili {
+  color: var(--sikili-green);
+}
+
+.bg-sikili {
+  background-color: var(--sikili-green);
+}
+
+.hover\:bg-sikili-dark:hover {
+  background-color: var(--sikili-green-dark);
+}
+
+.focus\:ring-sikili:focus {
+  --tw-ring-color: var(--sikili-green);
+  --tw-ring-opacity: 0.5;
+}
